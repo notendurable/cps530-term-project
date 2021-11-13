@@ -9,9 +9,9 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 const server = http.createServer(app);
 
-// send some test data
-app.get("/test", (request, response) => {
-    response.send({ user: "more data" });
+// entry point for the server
+app.get("/", (request, response) => {
+
 });
 
 // run the server
