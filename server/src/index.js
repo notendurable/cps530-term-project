@@ -1,8 +1,8 @@
-const http = require("http");
-const express = require("express");
+const http = require('http');
+const express = require('express');
 
 // hostname and port for server to listen to
-const HOSTNAME = process.env.HOSTNAME || "localhost";
+const HOSTNAME = process.env.HOSTNAME || 'localhost';
 const PORT = process.env.PORT || 5000;
 
 // create app and server
@@ -10,7 +10,7 @@ const app = express();
 const server = http.createServer(app);
 
 // entry point for the server
-app.get("/", (request, response) => {
+app.get('/', (request, response) => {
 
 });
 
