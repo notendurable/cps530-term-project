@@ -95,22 +95,22 @@ const ReactSummary = () => {
 						Some examples are: <br /><br />
 						<div className='row'>
 							<div className='col-2'>
-								<img src="/images/netflix.jpg" alt="Netflix logo" height='60rem' />
+								<img src="/images/netflix.jpg" alt="Netflix logo" width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/facebook.png" alt="Facebook logo" height='60rem' />
+								<img src="/images/facebook.png" alt="Facebook logo" width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/instagram.png" alt="Instagram logo" height='60rem' />
+								<img src="/images/instagram.png" alt="Instagram logo" width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/dropbox.jpg" alt="Dropbox logo" height='60rem' />
+								<img src="/images/dropbox.jpg" alt="Dropbox logo" width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/reddit.png" alt="Reddit logo" height='60rem' />
+								<img src="/images/reddit.png" alt="Reddit logo" width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/airbnb.jpg" alt="Airbnb logo" height='60rem' />
+								<img src="/images/airbnb.jpg" alt="Airbnb logo" width='100rem' />
 							</div>
 						</div>
 
