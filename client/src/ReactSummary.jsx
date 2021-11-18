@@ -21,7 +21,7 @@ const ReactSummary = () => {
 						React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
 						<br />
 						<br />
-						<img src="/images/react.png" alt="React logo" height='60rem' />
+						<img src={process.env.PUBLIC_URL + '/images/react.png'} alt='React logo' height='60rem' />
 						<br />
 						<br />
 						React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
@@ -95,22 +95,22 @@ const ReactSummary = () => {
 						Some examples are: <br /><br />
 						<div className='row'>
 							<div className='col-2'>
-								<img src="/images/netflix.jpg" alt="Netflix logo" width='100rem' />
+								<img src={process.env.PUBLIC_URL + '/images/netflix.jpg'} alt='Netflix logo' width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/facebook.png" alt="Facebook logo" width='100rem' />
+								<img src={process.env.PUBLIC_URL + '/images/facebook.png'} alt='Facebook logo' width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/instagram.png" alt="Instagram logo" width='100rem' />
+								<img src={process.env.PUBLIC_URL + '/images/instagram.png'} alt='Instagram logo' width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/dropbox.jpg" alt="Dropbox logo" width='100rem' />
+								<img src={process.env.PUBLIC_URL + '/images/dropbox.jpg'} alt='Dropbox logo' width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/reddit.png" alt="Reddit logo" width='100rem' />
+								<img src={process.env.PUBLIC_URL + '/images/reddit.png'} alt='Reddit logo' width='100rem' />
 							</div>
 							<div className='col-2'>
-								<img src="/images/airbnb.jpg" alt="Airbnb logo" width='100rem' />
+								<img src={process.env.PUBLIC_URL + '/images/airbnb.jpg'} alt='Airbnb logo' width='100rem' />
 							</div>
 						</div>
 
@@ -129,10 +129,10 @@ const ReactSummary = () => {
 						According to 2021's Stack Overflow Developer Survey, React has overtaken jQuery to become the most used web framework in the world, by both professional and hobbyist developers.
 						<br />
 						<br />
-						<img src="/images/react-popularity.png" alt="React popularity" width='800rem' />
+						<img src={process.env.PUBLIC_URL + '/images/react-popularity.png'} alt='React popularity' width='800rem' />
 						<br />
 						<br />
-						<img src="/images/react-popularity2.png" alt="React popularity" width='800rem' />
+						<img src={process.env.PUBLIC_URL + '/images/react-popularity2.png'} alt='React popularity' width='800rem' />
 					</p>
 				</div>
 				<div className='col-3'></div>

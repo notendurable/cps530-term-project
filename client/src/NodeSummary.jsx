@@ -21,10 +21,10 @@ const NodeSummary = () => {
             Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.
             <br />
             <br />
-            <img src="/images/node.png" alt="Node logo" height='60rem' />
+            <img src={process.env.PUBLIC_URL + '/images/node.png'} alt='Node logo' height='60rem' />
             <br />
             <br />
-            Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.
+            Consequently, Node.js represents a 'JavaScript everywhere' paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.
 
             {/* Source: https://en.wikipedia.org/wiki/Node.js */}
           </p>
@@ -89,22 +89,22 @@ const NodeSummary = () => {
             Some examples of companies that uses Node are: <br /><br />
             <div className='row'>
               <div className='col-2'>
-                <img src="/images/linkedin.png" alt="LinkedIn logo" width='100rem' />
+                <img src={process.env.PUBLIC_URL + '/images/linkedin.png'} alt='LinkedIn logo' width='100rem' />
               </div>
               <div className='col-2'>
-                <img src="/images/uber.png" alt="Uber logo" width='100rem' />
+                <img src={process.env.PUBLIC_URL + '/images/uber.png'} alt='Uber logo' width='100rem' />
               </div>
               <div className='col-2'>
-                <img src="/images/trello.png" alt="Trello logo" width='100rem' />
+                <img src={process.env.PUBLIC_URL + '/images/trello.png'} alt='Trello logo' width='100rem' />
               </div>
               <div className='col-2'>
-                <img src="/images/paypal.png" alt="PayPal logo" width='100rem' />
+                <img src={process.env.PUBLIC_URL + '/images/paypal.png'} alt='PayPal logo' width='100rem' />
               </div>
               <div className='col-2'>
-                <img src="/images/ebay.png" alt="eBay logo" width='100rem' />
+                <img src={process.env.PUBLIC_URL + '/images/ebay.png'} alt='eBay logo' width='100rem' />
               </div>
               <div className='col-2'>
-                <img src="/images/mozilla.png" alt="Mozilla logo" width='100rem' />
+                <img src={process.env.PUBLIC_URL + '/images/mozilla.png'} alt='Mozilla logo' width='100rem' />
               </div>
             </div>
 
@@ -123,7 +123,7 @@ const NodeSummary = () => {
             For the second year in a row, Node.js won the top spot in the StackOverflow’s 2020 developer survey. Over half of the respondents in the survey reported having used it in their projects.
             <br />
             <br />
-            <img src="/images/node-popularity.jpg" alt="Node popularity" width='600rem' />
+            <img src={process.env.PUBLIC_URL + '/images/node-popularity.jpg'} alt='Node popularity' width='600rem' />
 
             {/* Source: https://www.section.io/engineering-education/why-node-js-is-popular/ */}
           </p>
