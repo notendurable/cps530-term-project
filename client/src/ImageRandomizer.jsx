@@ -10,7 +10,7 @@ const ImageRandomizer = () => {
       <div className='row'>
         <div className='col-3'></div>
         <div className='col-6 text-center'>
-          <img src='/image' alt="Pet image" className='img-fluid img-thumbnail' width='500rem' />
+          <img src='https://cps530-term-project-server.herokuapp.com/image' alt="Pet image" className='img-fluid img-thumbnail' width='500rem' />
         </div>
         <div className='col-3'></div>
       </div>
