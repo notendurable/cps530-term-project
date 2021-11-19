@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "https://cps530-term-project-server.herokuapp.com/",
   "author": "Duong Vu",
   "license": "ISC",
   "dependencies": {
